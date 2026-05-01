@@ -10,7 +10,7 @@ import java.util.*;
 @CrossOrigin(origins = "*")
 public class ChatbotController {
 
-    private final String API_KEY = "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"; // 🔥 paste here
+  private final String API_KEY = System.getenv("OPENROUTER_API_KEY"); // 🔥 paste here
 
     @PostMapping("/chat")
     public String chat(@RequestBody String message) {
