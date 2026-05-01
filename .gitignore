@@ -1,0 +1,9 @@
+# Maven / build
+target/
+*.jar
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
